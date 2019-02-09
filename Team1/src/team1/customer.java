@@ -19,7 +19,14 @@ public class customer {
        this.custlocation= thelocation;
        
    }
-   
+   public String getcustname()
+   {
+       return custname;
+   }
+    public String getcustlocation()
+   {
+       return custlocation;
+   }
     public void sendOrder()
     {
         System.out.println("send order");
