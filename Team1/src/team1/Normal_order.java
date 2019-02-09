@@ -13,8 +13,8 @@ import java.util.Date;
  */
 public class Normal_order extends Order{
     
-    public Normal_order(Date date, String number) {
-        super(date, number);
+    public Normal_order( String number) {
+        super(number);
     }
     public void dispatch()
     {
